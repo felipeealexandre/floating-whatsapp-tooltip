@@ -1,0 +1,42 @@
+.whatsapp-button-container {
+  position: fixed;
+  bottom: 120px;
+  right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsapp-button {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: -60px;
+  left: -125%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  color: #40c351;
+  padding: 22px 16px 22px 22px;
+  border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  width: 228px;
+  height: 52px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(74, 144, 226, 0.24);
+  border-radius: 31px;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Roboto";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tooltip img {
+  margin-right: 10px;
+}
